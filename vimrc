@@ -29,9 +29,9 @@ filetype indent plugin on
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
-  colorscheme jellybeans
+colorscheme jellybeans
+set background=dark
 
-  set background=dark
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
