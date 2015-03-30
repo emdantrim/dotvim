@@ -32,6 +32,11 @@ filetype indent plugin on
 colorscheme jellybeans
 set background=dark
 
+if has("gui_running")
+	if has("gui_gtk2")
+		set guifont=Consolas\ 13
+	endif
+endif
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
