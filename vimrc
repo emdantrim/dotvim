@@ -1,6 +1,4 @@
 " **********************
-" You should have 'source ~/.vim/vimrc' in your ~/.vimrc for this to work!
-
 " All system-wide defaults are set in $VIMRUNTIME/debian.vim (usually just
 " /usr/share/vim/vimcurrent/debian.vim) and sourced by the call to :runtime
 " you can find below.  If you wish to change any of those settings, you should
