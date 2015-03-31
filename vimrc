@@ -36,6 +36,9 @@ if has("gui_running")
 	if has("gui_gtk2")
 		set guifont=Consolas\ 13
 	endif
+
+	set guioptions -=r "no scrollbar.
+	set guioptions -=T "no god-awful ugly menu bar.
 endif
 
 " Uncomment the following to have Vim jump to the last position when
