@@ -35,6 +35,8 @@ set background=dark
 if has("gui_running")
 	if has("gui_gtk2")
 		set guifont=Consolas\ 13
+	else
+		set guifont=Monaco:h14
 	endif
 
 	set guioptions -=r "no scrollbar.
