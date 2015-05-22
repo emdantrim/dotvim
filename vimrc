@@ -35,6 +35,8 @@ set background=dark
 if has("gui_running")
 	if has("gui_gtk2")
 		set guifont=Consolas\ 13
+	else
+		set guifont=Monaco:h14
 	endif
 
 	set guioptions -=r "no scrollbar.
@@ -71,6 +73,8 @@ set number
 "set shiftwidth=2
 "set expandtab	" nooooooooooooooooooooooooooooooooooooooooo ;~;
 
+set laststatus=2
+
 set backspace=indent,eol,start
 set paste
 
@@ -78,4 +82,7 @@ set paste
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
 endif
+
+let g:airline_powerline_fonts = 1
+let g:airline_theme='jellybeans'
 
